@@ -84,7 +84,7 @@ main {
 }
 
 .backimage {
-    background-image: url(../img/background.png);
+    background-image: url(../img/bc1.svg);
     position: absolute;
     height: 707px;
     width: 1437.8792724609375px;
@@ -1111,6 +1111,302 @@ footer {
     margin-left: 340px;
     margin-top: 45px;
 
+}
+
+@media (min-width: 1440px) {
+    body {
+        width: auto;
+    }
+    main {
+        width: auto;
+    }
+    article {
+        width: auto;
+    }
+    .backimage {
+        background-size: cover;
+        position: absolute;
+        height: 707px;
+        width: 100%;
+        z-index: -1;
+    }
+    .secondblock{
+        width: auto;
+    }
+
+    .txtblocks, .lastblock {
+        width: auto;
+    }
+    .pic3 {
+      margin-left: 1050px;
+    }
+    .pic1 {
+        margin-left: 87px;
+    }
+    .pic2 {
+        margin-left: 570px;
+    }
+    .txtblocks {
+        margin-left: 119px;
+    }
+    .white2 {
+        margin-left: 153px;
+    }
+    .white3 {
+        margin-left: 150px;
+    }
+    .bl1 {
+        margin-left: 157px;
+    }
+    
+    
+    .bl2 {
+        margin-left: 640px;
+    }
+    
+    .bl3 {
+        margin-left: 1120px;
+    }
+    .feedmain, .feedmain2, .picfeedmain {
+        justify-content: center;
+    }
+    .clients {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .hands {
+        margin-left: 700px;
+    }
+    .customers {
+        padding: 0;
+        margin: 0 auto;
+    }
+    .forma2 {
+        margin-left: 224px;
+    }
+    .buildbef1 {
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-left: 789px;
+    }
+    .lastbockbuild {
+        width: 100%;
+    }
+    .blockabs {
+        margin-left: 300px;
+    }
+    .map {
+        padding-left: 203px;
+        margin-left: 55px;
+    }
+    .superlast {
+        margin-left: 60px;
+    }
+    .superlast2 {
+        margin-left: 6px;
+    }
+
+    .imgthelast {
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 1300px) {
+
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+    
+    footer {
+        width: 100%;
+    }
+
+    .backimage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .secondblock {
+        width: 100%;
+        height: 100%;
+    }
+
+    .buttonnav {
+        display: none;
+        visibility: hidden;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        margin-left: 100px;
+    }
+
+    .nav2 {
+     padding-left: 465px;
+    }
+    
+    .pod {
+     margin-left: 532px;
+    }
+
+    .lastblock {
+        width: 100%;
+    }
+
+    .lastbockbuild {
+        width: 100%;
+    }
+
+    .block3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .forma2 {
+        width: 100%;
+        margin-left: 81px;
+        margin-top: 68px;
+        margin-right: 46px;
+    }
+
+    .buildbef1 {
+        width: 100%;
+        margin-left: 21px;
+    }
+
+    .pic1 {
+        margin-left: 31px;
+    }
+
+    .pic1, .pic2, .pic3 {
+        margin-top: 318px;
+    }
+
+    .pic2 {
+        margin-left: 469px; 
+    }
+
+    .pic3 {
+        margin-left: 907px;
+    }
+
+    .proj, .txt2,.zg2, .txt3, .zg3, .txt4{
+        padding-left: 100px;
+        width: 100%;
+    }
+
+    .zg5 {
+        padding-top: 11px;
+    }
+
+    .karusel {
+        padding-top: 35px;
+        padding-left: 122px;
+    }
+
+    .chelscreen {
+        margin-left: 213px;
+    }
+
+    .online {
+        padding-top: 36px;
+        padding-left: 564px;
+    }
+
+    .forma {
+        margin-left: 290px;
+        padding-bottom: 0px;
+        margin-top: 220px;
+    }
+
+    .repairpicture {
+        margin-left: 548px;
+        margin-top: 112px;
+    }
+    .txtblocks {
+        margin-top: 609px;
+    }
+
+    .white1 {
+        margin-left: -74px;
+
+    }
+
+    .white2 {
+        margin-left: 108px;
+    }
+
+    .white3 {
+        margin-left: 110px;
+    }
+
+    .bl1, .bl2, .bl3 {
+        margin-top: 866px;
+    }
+
+    .bl1 {
+        margin-left: 93px;
+        z-index: 1;
+    }
+
+    .bl2 {
+        margin-left: 528px;
+    }
+
+    .bl3 {
+        margin-left: 966px;
+    }
+
+    .building {
+        margin-top: 1048px;
+    }
+
+    .miniblock1 {
+        margin-top: 77px;
+    }
+
+    .save {
+        margin-left: 746px;
+        margin-top: 28px;
+    }
+
+    .clients {
+        padding-right: 1px;
+    }
+
+    .hands {
+        margin-left: 590px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+
+    .customers {
+        margin-right: 136px;
+    }
+
+    .picfeedmain1 {
+        margin-left: 39px;
+    }
+
+    .logoname2 {
+        padding-top: 20px;
+        padding-left: 9px;
+        margin-left: 4px;
+    }
+
+    .lastnav {
+        padding-top: 2px;
+        padding-left: 8px;
+    }
+
+    .buttonnav2 {
+        margin-top: 8px;
+        margin-left: 42px;
+    }
 }
 
 
